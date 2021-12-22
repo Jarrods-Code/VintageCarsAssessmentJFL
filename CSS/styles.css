@@ -1,0 +1,31 @@
+
+
+.logo-image{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form {
+    margin-bottom: 100px;
+}
+
+.card-deck{
+    margin-bottom: 100px;
+}
+
+.bg-secondary {
+    margin-bottom: 50px;
+}
+.footer {
+    text-align: center;
+    margin-top: 50px;
+}
+

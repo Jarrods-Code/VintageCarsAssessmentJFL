@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Link to Styles CSS-->
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <title>Vintage Car Web Assessment</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <div class="logo-image">
+            <img src="/CSS/photos/nav photo.jpg"class="img-fluid" >
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#cars">Cars</a>
+            <a class="nav-item nav-link" href="#form">Enquiries</a>
+            <a class="nav-item nav-link" href="#contact">Contact</a>
+          </div>
+        </div>
+      </nav>
+    <h1>Vintage cars for hire</h1>
+    <div class="container">
+    <div class="card-deck" id="cars">
+        <div class="card">
+          <img class="card-img-top" src="/CSS/photos/1oldhavana.jpg" alt="Old Havana Car">
+          <div class="card-body">
+            <h5 class="card-title">Classic Havana Car</h5>
+            <p class="card-text">Cubans loved their cars and you can too!</p>
+            <p class="card-text">At one point Cuba was the top importer of American cars in the whole of Latin America, so you will be driving this beautiful Havana Car imported from Cuba.</p>
+            <p class="card-text">Smell the leather, feel and experience it! You are in a world of luxury!</p>
+            <p class="card-text">We must warn you though, this car is in high demand, so hire it NOW!</p>
+            <p class="card-text">Come on you deserve it!</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="/CSS/photos/2Chevrolet1950.jpg" alt="Chevrolet 1950 Car">
+          <div class="card-body">
+            <h5 class="card-title">Classic Chevrolet 1950 Car</h5>
+            <p class="card-text">Americans loved their cars and you can too!</p>
+            <p class="card-text">A balance of luxury and style from 1950s!</p>
+            <p class="card-text">A top sales leader that boomed in America so you will be driving this beautiful Chevrolet 1950 imported from the USA.</p>
+            <p class="card-text">Smell the leather, feel and experience it! You are in a world of luxury!</p>
+            <p class="card-text">Come on you deserve it!</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="/CSS/photos/3OldFashionAmerCar.jpg" alt="Good Ole American Car">
+          <div class="card-body">
+            <h5 class="card-title">Good Ole American Car</h5>
+            <p class="card-text">Americans loved their cars and you can too!</p>
+            <p class="card-text">A balance of luxury and style from 1950s!</p>
+            <p class="card-text">A top sales leader that boomed in America so you will be driving this beautiful Good Ole Fashion Car imported from the USA.</p>
+            <p class="card-text">Smell the leather, feel and experience it! You are in a world of luxury!</p>
+            <p class="card-text">Come on you deserve it!</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="/CSS/photos/4CitroenDS.jpg" alt="Citroen DS Car">
+            <div class="card-body">
+              <h5 class="card-title">Classic Citroen DS</h5>
+              <p class="card-text">France loved their cars and you can too!</p>
+              <p class="card-text">Enjoy this French classic car from the 1970s!</p>
+              <p class="card-text">Words to describe this car: aerodynamic, futuristic body design and innovative technology.</p>
+              <p class="card-text">You will be driving this beautiful Citroen DS imported from Paris, France.</p>
+              <p class="card-text">Come on you deserve it!</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+      </div>
+      <h2>Enquiry Form</h2>
+      <form class="bg-secondary">
+        <div class="form-group" id="form">
+          <label for="fullname">Full Name</label>
+          <input class="form-control" type="text" placeholder="Enter Full Name">
+        </div>
+        <div class="form-group">
+          <label for="inputemail">Email address</label>
+          <input type="email" class="form-control" id="inputemail" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+            <label for="selectcars">Cars</label>
+            <select class="form-control" id="selectcars">
+              <option>Classic Havana Car</option>
+              <option>Classic Chevrolet 1950 Car</option>
+              <option>Good Ole American Car</option>
+              <option>Classic Citroen DS</option>
+            </select>
+          </div>
+          <div class="form-group" id="contact">
+            <label for="comments">Comments</label>
+            <textarea class="form-control" id="comments" rows="3"></textarea>
+          </div>
+          <div class="text-center"> 
+            <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+         </div> 
+      </form>
+      <div class="contactus" id="contactus">
+        <address>
+          <h3><strong>Contact Us</strong></h3>
+          Hire Classic Cars Now<br> 
+          345 Dunstone Drive<br>
+          Sydney 2000<br>
+          Ph: (02) 9999 9999<br>
+         Email: hireclassiccarsnow@gmail.com<br>
+        </address>
+        </div>
+        <div class="footer">
+        <footer>
+            <p>© 2021 Jarrod Fong-Lim</p>
+          </footer>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
